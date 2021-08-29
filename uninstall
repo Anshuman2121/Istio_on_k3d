@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+k3d cluster delete anshumank3d

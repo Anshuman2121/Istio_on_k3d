@@ -1,0 +1,8 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: my-service
+  namespace: istio-system
+spec:
+  type: ExternalName
+  externalName: productpage.default.svc.cluster.local
